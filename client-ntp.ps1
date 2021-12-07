@@ -4,7 +4,7 @@
 # Scripts install client VTP created by Ashraf Alkheroo
 #
 # =======================================================
-
+### Pour lancer le script: le nom du script plus l'addresse ip du serveur
 
 # Variables
 $NTPServer = $args[0]
