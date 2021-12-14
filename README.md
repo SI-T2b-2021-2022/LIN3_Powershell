@@ -26,7 +26,9 @@ regedit > HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\
 (Default) = 0     : Le serveur séléctioné par défaut est le "0" dans la liste
 
 0 = 10.0.2.11
+
 1 = time.windows.com
+
 2 = time.nist.gov
 
 ----------------
