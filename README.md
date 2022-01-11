@@ -17,7 +17,9 @@ start-Service -Name W32Time
 
 
 netsh advfirewall firewall add rule name="Open Port 123" dir=in action=allow protocol=udp localport=123
+
 New-NetFirewallRule -DisplayName "Disabling Port 123" -Action Block -Direction Inbound -Protocol udp -LocalPort 123 -Profile any
+
 remove-NetFirewallRule -DisplayName "Disabling Port 123"
 
 ----------------
