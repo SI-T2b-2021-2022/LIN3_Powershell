@@ -8,8 +8,11 @@ w32tm /query /source
 w32tm /query /status
 
 netstat -a
+
 Get-NetTCPConnection
+
 Get-Service -Name W32Time 
+
 start-Service -Name W32Time
 
 
