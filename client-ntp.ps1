@@ -5,7 +5,7 @@
 # =======================================================
 ### Pour lancer le script: le nom du script plus l'addresse ip du serveur NTP principal 
 ### plus le nom ou l'address IP dU serveur secondaire.
-### EXemple: .\client-ntp.ps1 10.0.1.10 www.apple.com
+### EXemple: .\client-ntp.ps1 10.0.1.10 time.euro.apple.com
 
 # Variables
 $NTPServer = $args[0]
